@@ -1,4 +1,4 @@
-import { HomeOutlined, UserOutlined } from "@ant-design/icons";
+import { HomeOutlined, TableOutlined, UserOutlined } from "@ant-design/icons";
 import { Menu, MenuProps } from "antd";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -15,6 +15,11 @@ const items: MenuItem[] = [
     label: 'Profile',
     key: 'profile',
     icon: <UserOutlined />,
+  },
+  {
+    label: 'Table',
+    key: 'table',
+    icon: <TableOutlined />,
   },
 ];
 
